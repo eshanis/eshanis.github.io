@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>mobile Food Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="themes/blue1.min.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+</head>
+
+<body>
+    <div data-role="page" date-theme="a">
+        <div data-role="header">
+            <a href="index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-left jqm-home">Home</a>
+            <h1>What's Cooking ? </h1>
+        </div>
+
+        <div data-role="navbar">
+            <ul>
+                <li><a href="gallery.html">Recipe Home</a></li>
+                <li><a href="contact.html" class="ui-shadow ui-btn ui-corner-all ui-btn-inline" data-transition="pop">Contact</a>
+                </li>
+                <li><a href="index.html">Home</a></li>
+
+            </ul>
+        </div><!-- /navbar -->
+
+        <div data-role="content" data-theme="a">
+            <div class="content-primary">
+
+                <center>
+                    <div>
+
+                        <img src="./images/healthy.jpg" />
+                    </div>
+                </center>
+                <ul data-role="listview" data-filter="true">
+                    <li><a href="recipe.html">
+                            <img src="./images/soup1.jpg" />
+                            <h3>Curried Cauliflower Soup</h3>
+                            <p>Creamy, yet cream-less, cauliflower soup.</p>
+                        </a></li>
+                    <li><a href="recipe.html">
+                            <img src="./images/buddhabowl.jpg" />
+                            <h3>Buddha Bowl</h3>
+                            <p>This versatile bowl is unbelievably tasty and nutritious, too!</p>
+                        </a></li>
+                    <li><a href="recipe.html">
+                            <img src="./images/cauliflower150.jpg" />
+                            <h3>Buffalo Cauliflower</h3>
+                            <p>They’re so flavor-packed that won’t even miss wing night with these around. </p>
+                        </a></li>
+                    <li><a href="recipe.html">
+                            <img src="./images/quinoasalad.jpg" />
+                            <h3>Quinoa Salad</h3>
+                            <p>Ratatouille vegetables with quinoa and Mediterranean flavors.</p>
+                        </a></li>
+
+                </ul>
+
+            </div>
+            <br><br>
+            <div data-role="footer">
+
+                <h4>whatscooking.com, 2021 - Copyright</h4>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--Eshani Shah, W0737674, Date:11/24/2020 -->
+<html lang="en">
+
+<head>
+    <title>What's Cooking? Naan Recipe</title>
+    <meta charset="utf-8">
+
+    <!--exported the font awesome library for the search icon from content delivery network-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="finalstyles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #homepara {
+            line-height: 1.6;
+        }
+
+        #recipe {
+            background-color: lightblue;
+            padding: 10px;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+            border-style: double;
+            border-width: thick;
+            margin-left: 20px;
+            /*margin-top: 20px;*/
+            margin-right: 20px;
+            /* border-radius: 50%;*/
+            align-self: center;
+            /*float: left;*/
+        }
+
+        h4 {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body id="topofpage">
+    <div id="wrapper">
+        <header>
+            <!--images style embedded above -->
+            <img src="images/logo1.png" id="logo" alt="">
+            <h1 id="cook">What's Cooking?</h1>
+            
+            <!--images style inline -->
+            <img src="images/email.png" style="width: 30px; height: 30px; float: right;border-style: none;" alt="email icon">
+            <img src="images/fb.png" style="width: 30px; height: 30px; float: right;border-style: none;" alt="facebook icon">
+
+            <h4 id="eat">Vegetarian Eats</h4>
+
+        </header>
+        <br>
+        <hr>
+        <div id="topnav">
+            <!--horizontal navigation located at the top of the page-->
+            <a href="gallery.html">Home</a> &nbsp;&nbsp;
+            <a href="salads.html">Soups and Salads</a>&nbsp;&nbsp;
+            <a href="dinner.html">Dinner</a>&nbsp;&nbsp;
+            <a href="resources.html">Resources</a>&nbsp;&nbsp;
+            <a href="contact.html">Contact</a>&nbsp;&nbsp;
+            <a href="/index.html" target="_blank">Student HomePage</a>&nbsp;&nbsp;
+
+            <!-- adds the search box as part of the nav -->
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+
+        </div>
+        <hr>
+
+        <p id=head>Naan (No Yeast)</p>
+        <!--placed above nav since it did not function well here -->
+        <!--header>
+            <img src="images/logo1.png" id="logo">
+            <h1 id="cook">What's Cooking?</h1>
+            <h4 id="eat">Vegetarian Eats</h4>
+        </header-->
+
+
+        <main>
+
+            <!--creates 3 columns-->
+            <div class="row">
+                <div><img src="images/naan2.JPG" alt="naan flat bread"></div>
+                 <p class="price">$3 each</p>
+                <a class="button" href="#">Add to Cart</a>     
+            </div>
+            <br>
+             <!--paragraph style embedded above -->
+            <p id="homepara">
+                Indian flatbreads are an essential part of the indian day to day meal. It is generally made with wheat flour, but can also be made with plain flour or maida which is known as naan bread. One such simple and easy variation is the homemade naan made with tawa or pan in the cooking stove. Traditionally and in restaurants, naan is made in the tandoor. Tandoor oven is loaded with coal heat and the naan bread is stuck to the sides of tandoor till it gets baked. The charcoal would infuse the smoky flavour to the bread. This recipe used baking powder instead of yeast. It is important to let the dough rest for a minimum of 2 hours.
+            </p>
+
+            
+
+            <!--div class="row">
+                <div class="column"><a href="thaisoup.html"><img src="images/thaisoup.jpg">
+                    <div style="text-align: center">Thai Red Curry Soup</div></a>
+                </div>
+              
+            </div-->
+
+        </main>
+
+
+        <br>
+        <hr>
+        <footer class="footer">
+
+            <a href="#topofpage">Go to top of page</a><br><br>
+            What's Cooking?
+            <br>
+            www.whatscooking.com
+
+        </footer>
+        <hr>
+    </div>
+    <!--CLOSES WRAPPER-->
+</body></html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--Eshani Shah, W0737674, Date:11/24/2020 -->
+<html lang="en">
+
+<head>
+    <title>What's Cooking? Soups and Salad Recipes</title>
+    <meta charset="utf-8">
+
+    <!--exported the font awesome library for the search icon from content delivery network-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="finalstyles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #homepara {
+            line-height: 1.6;
+        }
+
+        img {
+            border-radius: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .column {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body id="topofpage">
+    <div id="wrapper">
+        <header>
+            <!--images style embedded above -->
+            <img src="images/logo1.png" id="logo" alt="">
+            <h1 id="cook">What's Cooking?</h1>
+
+            <!--images style inline -->
+            <img src="images/email.png" style="width: 30px; height: 30px; float: right;border-style: none;" alt="email icon">
+            <img src="images/fb.png" style="width: 30px; height: 30px; float: right;border-style: none;" alt="facebook icon">
+
+            <h4 id="eat">Vegetarian Eats</h4>
+
+        </header>
+        <br>
+        <hr>
+        <div id="topnav">
+            <!--navigation at the top of the page-->
+            <a href="gallery.html">Home</a> &nbsp;&nbsp;
+            <a href="salads.html">Soups and Salads</a>&nbsp;&nbsp;
+            <a href="dinner.html">Dinner</a>
+            <!--div class="dropdown">
+                <button class="dropbtn">Dinner
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <li> <a href="naan.html">Naan</a></li>
+                    <li> <a href="#">Link 2</a></li>
+                    <li> <a href="#">Link 3</a></li>
+                </div>
+            </div-->&nbsp;&nbsp;
+            <a href="resources.html">Resources</a>&nbsp;&nbsp;
+            <a href="contact.html">Contact</a>&nbsp;&nbsp;
+            <a href="/index.html" target="_blank">Student HomePage</a>&nbsp;&nbsp;
+
+            <!-- adds the search box as part of the nav -->
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+
+        </div>
+        <hr>
+
+        <p id=head>Soups and Salads</p>
+        <!--placed above nav since it did not function well here -->
+        <!--header>
+            <img src="images/logo1.png" id="logo">
+            <h1 id="cook">What's Cooking?</h1>
+            <h4 id="eat">Vegetarian Eats</h4>
+        </header-->
+
+
+        <main>
+            <!--creates 3 columns-->
+            <!--text styles inline -->
+            <div class="row" style="text-align: center;">
+                <div class="column"><a href="thaisoup.html"><img src="images/thaisoup.jpg" alt="soup in bowl">
+                        <div style="text-align: center">Thai Red Curry Soup</div>
+                        <div>$8</div>
+                    </a>
+
+                </div>
+
+                <div class="column"><a href="lettuce.html"><img src="images/lettuce.JPG" alt="lettuce wraps">
+                        <div style="text-align: center">Lettuce Wraps with sweet and sour dressing</div>
+                        <div>$8</div>
+                    </a>
+                </div>
+
+                <div class="column"><a href="jicama.html"><img src="images/jicama.JPG" alt="tacos">
+                        <div style="text-align: center">Spiced Roasted vegetables and Avocado Jicama Taco</div>
+                        <div>$8</div>
+                    </a>
+                </div>
+
+                <div class="column"><img src="images/ratatouille.jpg" alt="ratatouille in bowl">
+                    <div style="text-align: center">Ratatouille</div>
+                    <div>$10</div>
+                </div>
+
+                <div class="column"><img src="images/greensoup.jpg" alt="green soup in bowl">
+                    <div style="text-align: center">Green Soup</div>
+                    <div>$8</div>
+                </div>
+
+                <div class="column"><img src="images/buddhabowl.jpg" alt="salad and tofu in bowl">
+                    <div style="text-align: center">Buddha Bowl</div>
+                    <div>$10</div>
+                </div>
+
+                <div class="column"><img src="images/soup1.jpg" alt="soup in bowl">
+                    <div style="text-align: center">Creamy Cauliflower Soup</div>
+                    <div>$8</div>
+                </div>
+
+                <div class="column"><img src="images/quinoasalad.jpg" alt="salad">
+                    <div style="text-align: center">Quinoa Salad</div>
+                    <div>$10</div>
+                </div>
+
+                <div class="column"><img src="images/chickpea.jpg" alt="chickpea salad">
+                    <div style="text-align: center">Chick Pea Salad</div>
+                    <div>$8</div>
+                </div>
+            </div>
+
+        </main>
+
+
+        <br>
+        <hr>
+        <footer class="footer">
+
+            <a href="#topofpage">Go to top of page</a><br><br>
+            What's Cooking?
+            <br>
+            www.whatscooking.com
+
+        </footer>
+        <hr>
+    </div>
+    <!--CLOSES WRAPPER-->
+</body></html>

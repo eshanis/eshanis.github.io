@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--Eshani Shah, W0737674, Date:11/24/2020 -->
+<html lang="en">
+
+<head>
+    <title>What's Cooking? Lettuce wraps</title>
+    <meta charset="utf-8">
+
+    <!--exported the font awesome library for the search icon from content delivery network-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="finalstyles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #homepara {
+            line-height: 1.6;
+            padding-top: 20px;
+        }
+
+        #recipe {
+            background-color: lightblue;
+            padding: 10px;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+            border-style: double;
+            border-width: thick;
+            margin-left: 50px;
+            /*margin-top: 20px;*/
+            margin-right: 20px;
+            /* border-radius: 50%;*/
+            align-self: center;
+            /*float: left;*/
+        }
+
+        h4 {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body id="topofpage">
+    <div id="wrapper">
+        <header>
+            <!--images style embedded above -->
+            <img src="images/logo1.png" id="logo" alt="">
+            <h1 id="cook">What's Cooking?</h1>
+            <img src="images/email.png" style="width: 30px; height: 30px; float: right;border-style: none;" alt="email icon">
+            <img src="images/fb.png" style="width: 30px; height: 30px; float: right;border-style: none;" alt="facebook icon">
+
+            <h4 id="eat">Vegetarian Eats</h4>
+
+        </header>
+        <br>
+        <hr>
+        <div id="topnav">
+            <!--horizontal navigation at the top of the page-->
+            <a href="gallery.html">Home</a> &nbsp;&nbsp;
+            <a href="salads.html">Soups and Salads</a>&nbsp;&nbsp;
+            <a href="dinner.html">Dinner</a>&nbsp;&nbsp;
+            <a href="resources.html">Resources</a>&nbsp;&nbsp;
+            <a href="contact.html">Contact</a>&nbsp;&nbsp;
+            <a href="/index.html" target="_blank">Student HomePage</a>&nbsp;&nbsp;
+
+            <!-- adds the search box as part of the nav -->
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+
+        </div>
+        <hr>
+
+        <p id=head>Lettuce Wraps</p>
+        <!--placed above nav since it did not function well here -->
+        <!--header>
+            <img src="images/logo1.png" id="logo">
+            <h1 id="cook">What's Cooking?</h1>
+            <h4 id="eat">Vegetarian Eats</h4>
+        </header-->
+
+
+        <main>
+
+            <!--creates 3 columns-->
+            <!--images style embedded above -->
+            <div class="row">
+                <div><img src="images/lettuce.JPG" alt="Lettuce Wraps"></div>
+             <p class="price">$6</p>
+                <a class="button" href="#">Add to Cart</a>
+            </div>
+            
+            <!--paragraph style embedded above -->
+            <p id="homepara">
+                These Vegetarian Lettuce Wraps are made with tofu, mushrooms and avocado. Topped with a sweet and tangy red bell pepper and jicama salsa. These delicious lettuce wraps will win over even the most hesitant eaters.
+            </p>
+
+        </main>
+
+
+        <br>
+        <hr>
+        <footer class="footer">
+
+            <a href="#topofpage">Go to top of page</a><br><br>
+            What's Cooking?
+            <br>
+            www.whatscooking.com
+
+        </footer>
+        <hr>
+    </div>
+    <!--CLOSES WRAPPER-->
+</body></html>

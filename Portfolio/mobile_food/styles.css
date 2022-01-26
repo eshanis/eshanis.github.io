@@ -1,0 +1,123 @@
+    body{
+        background-color: lightcyan;
+        margin: 50px;
+        
+    }
+    h1{
+        font-size: 50px;
+        font-family: "trebuchet MS";
+        /*text-align: left;*/
+    }
+    h2{
+        font-size: 30px;
+        font-family: "arial";   
+    }
+    p{
+        font-family: "trebuchet MS";
+        color: blue;
+        font-size: 15px;
+    }
+    ol{
+        font-family: "trebuchet MS";
+        color: dimgrey;
+    }
+
+li {
+    color: darkblue;
+}
+
+    hr{
+        width: 75%;
+        border: 1px solid red;
+        justify-items: center;
+
+    }
+
+/*img {
+    padding: 20px;
+}*/
+
+div{
+    display: block;
+}
+
+a:visited{
+    color:mediumpurple;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color:black;
+}
+
+/*CSS for calender assignment #3*/
+table {
+            border-collapse: collapse;
+            /*background: white;*/
+            color: black;
+            width:400px;
+        }
+          
+        th,
+        td {
+            font-weight: bold;
+        }
+
+        th {
+            color: white;
+            background: purple;
+        }
+
+@media screen and (min-width: 200px) {
+    table {
+            
+            background: white;
+            color: black;
+            font-size: 15px;
+            width:180px;
+        }
+}
+
+
+@media screen and (min-width: 400px) {
+    table {
+         
+            background: lightpink;
+            color: black;
+            font-size: 25px;
+            width:380px;
+        }
+}
+
+@media screen and (min-width: 700px) {
+    table {
+           
+            background: lightgreen;
+            color: black;
+            font-size: 35px;
+            width:600px;
+        }
+}
+
+@media screen and (min-width: 1000px) {
+    table {
+            
+            background: gold;
+            color: black;
+            font-size: 45px;
+            width:800px;
+        }
+}
+
+@media screen and (min-width: 1400px) {
+    table {
+            
+            background: lightcoral;
+            color: black;
+            font-size: 55px;
+            width:1200px;
+        }
+}
